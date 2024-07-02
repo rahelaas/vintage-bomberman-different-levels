@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bomberman</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<img class ="logo" src="images/logo.svg" alt="Logo"/>
+<div class = "gameArea" id="gameArea">
+
+</div>
+<div class = "controls" id="controls"></div>
+<table class="table">
+    <tbody>
+    <tr>
+        <td style="height: 40px;"><div class="container">
+            <h1>00:00</h1>
+        </div></td>
+        <td style="height: 40px;"> <div class="score"><h1>0000</h1></div> </td>
+        <td style="height: 40px;"> <div class = "lives">
+            <img src="./images/lives.svg" alt="heart">
+            <img src="./images/lives.svg" alt="heart">
+            <img src="./images/lives.svg" alt="heart">
+        </div>
+        </td>
+    </tr>
+
+    </tbody>
+</table>
+<div class="fps" id="fps"> <h1>0000</h1>
+</div>
+<script  type="module" src="script.js"  defer></script>
+<script type="module" src="./game/app.js"></script>
+
+</body>
+</html>
